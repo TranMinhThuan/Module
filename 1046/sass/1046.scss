@@ -1,0 +1,51 @@
+$color-white: #fff;
+$position-relative: relative;
+$position-absolute: absolute;
+$full: 100%;
+$topleft: 23%;
+$hidden: hidden;
+.type-1046{
+    overflow: $hidden;
+    text-align: center;
+    color: $color-white;
+    position: $position-relative;
+    .content {
+        position: $position-relative;
+        height: 400px;
+        overflow: $hidden;
+        img{
+            width: $full;
+            height: $full;
+            position: $position-absolute;
+            right: 0;
+            bottom: 0;
+            transition: 0.5s;
+        }
+        img:hover{
+            transition: 0.5s;
+            transform: scale(1.2);
+        }
+        .infor{
+            position: $position-absolute;
+            top: $topleft;
+            left: $topleft;  
+            a {
+                display: inline-block;
+                border: 1px solid $color-white;
+                padding: 10px 15px;
+                color: $color-white;
+                text-decoration: none;
+                transition: 0.3s;
+                align-self: center;
+                margin-top: 20px;
+            }
+            a:hover{
+                background-color: rgba(255, 255, 255, 0.3);
+            }
+
+        }
+        
+    }
+}
+
+
