@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
     
     <div class="row">
         <div class="col-md-6 content">
-            <img src="./images/hinh1.jpg">
+            <img src="./images/hinh1.jpg"  alt="#">
             <div class="infor">
                 <h2>STAND OUT OF THE CROUD</h2>
                 <h3>with our stylish bags & accessories</h3>
@@ -25,7 +25,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
 
         <div class="col-md-6 content">
-            <img src="./images/hinh2.jpg">
+            <img src="./images/hinh2.jpg" alt="#">
             <div class="infor">
                 <h2>COMFORT & STYLE</h2>
                 <h3>perfect shoes for your active everyday life</h3>
